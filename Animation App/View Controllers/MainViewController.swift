@@ -9,10 +9,11 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet var animationsAndCurvesPicker: UIPickerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
