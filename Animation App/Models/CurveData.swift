@@ -9,7 +9,7 @@ import Foundation
 import Spring
 
 class CurveData {
-    var curves: [Spring.AnimationCurve] = [
+    let curves: [Spring.AnimationCurve] = [
         .EaseIn,
         .EaseOut,
         .EaseInOut,

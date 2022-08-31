@@ -10,6 +10,7 @@
 		040D333CB021ACE010B1EBD5 /* Pods_Animation_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B7691D66847AECF5ABACCF /* Pods_Animation_App.framework */; };
 		E00AB2E728BFBE5B00E99E5A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2E628BFBE5B00E99E5A /* MainViewController.swift */; };
 		E00AB2EF28BFC74B00E99E5A /* CurveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2EE28BFC74B00E99E5A /* CurveData.swift */; };
+		E00AB2F128BFC9BC00E99E5A /* AnimationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */; };
 		E0E1F69D28BFAC350025B501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1F69C28BFAC350025B501 /* AppDelegate.swift */; };
 		E0E1F69F28BFAC350025B501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1F69E28BFAC350025B501 /* SceneDelegate.swift */; };
 		E0E1F6A428BFAC350025B501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E1F6A228BFAC350025B501 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		B173CE67525FF0DD66A43E85 /* Pods-Animation App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation App.release.xcconfig"; path = "Target Support Files/Pods-Animation App/Pods-Animation App.release.xcconfig"; sourceTree = "<group>"; };
 		E00AB2E628BFBE5B00E99E5A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E00AB2EE28BFC74B00E99E5A /* CurveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveData.swift; sourceTree = "<group>"; };
+		E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationData.swift; sourceTree = "<group>"; };
 		E0E1F69928BFAC350025B501 /* Animation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E1F69C28BFAC350025B501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E1F69E28BFAC350025B501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				E00AB2EE28BFC74B00E99E5A /* CurveData.swift */,
+				E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00AB2EF28BFC74B00E99E5A /* CurveData.swift in Sources */,
+				E00AB2F128BFC9BC00E99E5A /* AnimationData.swift in Sources */,
 				E00AB2E728BFBE5B00E99E5A /* MainViewController.swift in Sources */,
 				E0E1F69D28BFAC350025B501 /* AppDelegate.swift in Sources */,
 				E0E1F69F28BFAC350025B501 /* SceneDelegate.swift in Sources */,
