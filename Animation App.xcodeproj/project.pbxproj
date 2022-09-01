@@ -13,6 +13,7 @@
 		E00AB2F128BFC9BC00E99E5A /* AnimationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */; };
 		E042036028C0F537002C3C27 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042035F28C0F537002C3C27 /* DetailViewController.swift */; };
 		E042036228C0F59B002C3C27 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042036128C0F59B002C3C27 /* AnimationModel.swift */; };
+		E042036428C0FADD002C3C27 /* extension + DetailViewController settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E042036328C0FADD002C3C27 /* extension + DetailViewController settings.swift */; };
 		E0D5713C28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */; };
 		E0D5713E28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */; };
 		E0D5714028C0C5CB0074BF2A /* extension + AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5713F28C0C5CB0074BF2A /* extension + AnimateView.swift */; };
@@ -32,6 +33,7 @@
 		E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationData.swift; sourceTree = "<group>"; };
 		E042035F28C0F537002C3C27 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E042036128C0F59B002C3C27 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		E042036328C0FADD002C3C27 /* extension + DetailViewController settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + DetailViewController settings.swift"; sourceTree = "<group>"; };
 		E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIPickerViewDataSource.swift"; sourceTree = "<group>"; };
 		E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIPickerViewDelegate.swift"; sourceTree = "<group>"; };
 		E0D5713F28C0C5CB0074BF2A /* extension + AnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + AnimateView.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */,
 				E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */,
 				E0D5713F28C0C5CB0074BF2A /* extension + AnimateView.swift */,
+				E042036328C0FADD002C3C27 /* extension + DetailViewController settings.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				E00AB2E728BFBE5B00E99E5A /* MainViewController.swift in Sources */,
 				E0E1F69D28BFAC350025B501 /* AppDelegate.swift in Sources */,
 				E0D5714028C0C5CB0074BF2A /* extension + AnimateView.swift in Sources */,
+				E042036428C0FADD002C3C27 /* extension + DetailViewController settings.swift in Sources */,
 				E0E1F69F28BFAC350025B501 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

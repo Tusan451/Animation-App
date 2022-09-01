@@ -21,12 +21,15 @@ class MainViewController: UIViewController {
     var selectedAnimation: String?
     var selectedCurve: String?
     
+    let identifier = "goInfo"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         animationsAndCurvesPicker.dataSource = self
         animationsAndCurvesPicker.delegate = self
-        animationModel = AnimationModel(name: animatedView.animation, curveValue: animatedView.curve, durationValue: animatedView.duration, dampingValue: animatedView.damping, velocityValue: animatedView.velocity, rotateValue: animatedView.rotate)
-
+        
+        animatedView.animation = animationsData.animations[0].rawValue
+        animatedView.curve = curvesData.curves[0].rawValue
     }
     
     @IBAction func startButtonAction() {
@@ -43,15 +46,13 @@ class MainViewController: UIViewController {
         }
     }
 
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard segue.identifier == identifier else { return }
+        let detailVC = segue.destination as? DetailViewController
+        animationModel = AnimationModel(name: animatedView.animation, curveValue: animatedView.curve, durationValue: animatedView.duration, dampingValue: animatedView.damping, velocityValue: animatedView.velocity, rotateValue: animatedView.rotate)
+        detailVC?.animationInfo = animationModel
     }
-    */
-
 }
 

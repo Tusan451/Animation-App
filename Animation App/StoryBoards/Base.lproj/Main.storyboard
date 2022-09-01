@@ -72,7 +72,7 @@
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qm3-hZ-SJ9" kind="presentation" modalTransitionStyle="coverVertical" id="Y68-YG-Tgo"/>
+                                    <segue destination="Qm3-hZ-SJ9" kind="presentation" identifier="goInfo" modalTransitionStyle="coverVertical" id="Y68-YG-Tgo"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mA8-BS-TBE">
@@ -213,8 +213,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSg-2g-Q1W">
-                                <rect key="frame" x="20" y="536.5" width="374" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <rect key="frame" x="20" y="536.5" width="374" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -266,6 +266,15 @@
                             <constraint firstItem="QSg-2g-Q1W" firstAttribute="top" secondItem="77i-aT-3b7" secondAttribute="bottom" constant="16" id="zrT-x5-jR1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animationName" destination="T8f-O8-NZe" id="ZMg-rP-1a6"/>
+                        <outlet property="codeLabel" destination="QSg-2g-Q1W" id="JWO-Gy-vuf"/>
+                        <outlet property="curveName" destination="NXN-rP-phX" id="XMd-4y-VbD"/>
+                        <outlet property="dampingLabel" destination="uVC-GE-49d" id="Nfp-q3-AmB"/>
+                        <outlet property="durationLabel" destination="8Bc-tZ-62p" id="CoF-xc-W9G"/>
+                        <outlet property="rotateLabel" destination="zzU-qD-67G" id="6M0-9x-V1t"/>
+                        <outlet property="velocityLabel" destination="hD3-Og-9wG" id="mha-Pk-iE8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s6w-va-h9U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
