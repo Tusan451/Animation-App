@@ -5,10 +5,10 @@
 //  Created by Olegio on 01.09.2022.
 //
 
-import Foundation
 import UIKit
 
 extension MainViewController: UIPickerViewDataSource {
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2    
     }

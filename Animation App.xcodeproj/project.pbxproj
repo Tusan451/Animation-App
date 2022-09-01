@@ -12,6 +12,7 @@
 		E00AB2EF28BFC74B00E99E5A /* CurveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2EE28BFC74B00E99E5A /* CurveData.swift */; };
 		E00AB2F128BFC9BC00E99E5A /* AnimationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */; };
 		E0D5713C28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */; };
+		E0D5713E28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */; };
 		E0E1F69D28BFAC350025B501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1F69C28BFAC350025B501 /* AppDelegate.swift */; };
 		E0E1F69F28BFAC350025B501 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1F69E28BFAC350025B501 /* SceneDelegate.swift */; };
 		E0E1F6A428BFAC350025B501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E1F6A228BFAC350025B501 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		E00AB2EE28BFC74B00E99E5A /* CurveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveData.swift; sourceTree = "<group>"; };
 		E00AB2F028BFC9BC00E99E5A /* AnimationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationData.swift; sourceTree = "<group>"; };
 		E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIPickerViewDataSource.swift"; sourceTree = "<group>"; };
+		E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension + UIPickerViewDelegate.swift"; sourceTree = "<group>"; };
 		E0E1F69928BFAC350025B501 /* Animation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E1F69C28BFAC350025B501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E1F69E28BFAC350025B501 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E0D5713B28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift */,
+				E0D5713D28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				E00AB2EF28BFC74B00E99E5A /* CurveData.swift in Sources */,
 				E0D5713C28C0B24C0074BF2A /* extension + UIPickerViewDataSource.swift in Sources */,
 				E00AB2F128BFC9BC00E99E5A /* AnimationData.swift in Sources */,
+				E0D5713E28C0B5280074BF2A /* extension + UIPickerViewDelegate.swift in Sources */,
 				E00AB2E728BFBE5B00E99E5A /* MainViewController.swift in Sources */,
 				E0E1F69D28BFAC350025B501 /* AppDelegate.swift in Sources */,
 				E0E1F69F28BFAC350025B501 /* SceneDelegate.swift in Sources */,

@@ -17,6 +17,8 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        animationsAndCurvesPicker.dataSource = self
+        animationsAndCurvesPicker.delegate = self
 
     }
     
