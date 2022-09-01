@@ -13,6 +13,8 @@ class MainViewController: UIViewController {
     @IBOutlet var animationsAndCurvesPicker: UIPickerView!
     @IBOutlet var startButton: UIButton!
     @IBOutlet var animatedView: SpringView!
+    @IBOutlet var squareViewIcon: UIView!
+    @IBOutlet var roundViewIcon: UIView!
     
     let curvesData = CurveData()
     let animationsData = AnimationData()
@@ -37,6 +39,9 @@ class MainViewController: UIViewController {
     @IBAction func startButtonAction() {
         animateView()
         animationModelInit()
+    }
+    
+    @IBAction func iconButtonAction(_ sender: UIButton) {
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
