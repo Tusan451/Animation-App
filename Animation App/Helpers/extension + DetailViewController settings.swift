@@ -17,6 +17,6 @@ extension DetailViewController {
         velocityLabel.text = animationInfo.velocityValue.formatted()
         rotateLabel.text = animationInfo.rotateValue.formatted()
         codeLabel.text =
-        "animatedView.animation = \(animationName.text ?? "_")\nanimatedView.curve = \(curveName.text ?? "_")\nanimatedView.animate()"
+        "animatedView.animation = \"\(animationName.text ?? "_")\"\nanimatedView.curve = \"\(curveName.text ?? "_")\"\nanimatedView.animate()"
     }
 }
