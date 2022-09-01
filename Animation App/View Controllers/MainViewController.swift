@@ -28,6 +28,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func startButtonAction() {
+        animateView()
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
