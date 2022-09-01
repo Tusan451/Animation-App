@@ -30,10 +30,16 @@ class MainViewController: UIViewController {
         
         animatedView.animation = animationsData.animations[0].rawValue
         animatedView.curve = curvesData.curves[0].rawValue
+        
+        animationModel = AnimationModel(name: animatedView.animation, curveValue: animatedView.curve, durationValue: animatedView.duration, dampingValue: animatedView.damping, velocityValue: animatedView.velocity, rotateValue: animatedView.rotate)
     }
     
     @IBAction func startButtonAction() {
         animateView()
+        animationModel = AnimationModel(name: animatedView.animation, curveValue: animatedView.curve, durationValue: animatedView.duration, dampingValue: animatedView.damping, velocityValue: animatedView.velocity, rotateValue: animatedView.rotate)
+    }
+    
+    @IBAction func moreInfoButtonAction() {
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
@@ -51,7 +57,6 @@ class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == identifier else { return }
         let detailVC = segue.destination as? DetailViewController
-        animationModel = AnimationModel(name: animatedView.animation, curveValue: animatedView.curve, durationValue: animatedView.duration, dampingValue: animatedView.damping, velocityValue: animatedView.velocity, rotateValue: animatedView.rotate)
         detailVC?.animationInfo = animationModel
     }
 }

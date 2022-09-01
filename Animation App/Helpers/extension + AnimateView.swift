@@ -19,8 +19,8 @@ extension MainViewController {
             animatedView.curve = curvesData.curves[0].rawValue
             animatedView.animate()
         } else if selectedCurve != nil && selectedAnimation == nil {
-            animatedView.animation = animationsData.animations[0].rawValue
             animatedView.curve = selectedCurve!
+            animatedView.animation = animationsData.animations[0].rawValue
             animatedView.animate()
         } else {
             animatedView.animation = animationsData.animations[0].rawValue

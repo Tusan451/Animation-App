@@ -72,6 +72,7 @@
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="moreInfoButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="IS8-m1-gYR"/>
                                     <segue destination="Qm3-hZ-SJ9" kind="presentation" identifier="goInfo" modalTransitionStyle="coverVertical" id="Y68-YG-Tgo"/>
                                 </connections>
                             </button>
@@ -267,7 +268,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="animationName" destination="T8f-O8-NZe" id="ZMg-rP-1a6"/>
+                        <outlet property="animationName" destination="T8f-O8-NZe" id="CTl-XR-dR2"/>
                         <outlet property="codeLabel" destination="QSg-2g-Q1W" id="JWO-Gy-vuf"/>
                         <outlet property="curveName" destination="NXN-rP-phX" id="XMd-4y-VbD"/>
                         <outlet property="dampingLabel" destination="uVC-GE-49d" id="Nfp-q3-AmB"/>
