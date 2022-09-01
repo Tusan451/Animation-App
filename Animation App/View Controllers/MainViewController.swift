@@ -57,16 +57,6 @@ class MainViewController: UIViewController {
             break
         }
     }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        if component == 0 {
-            let animation = animationsData.animations[row]
-            selectedAnimation = animation.rawValue
-        } else {
-            let curve = curvesData.curves[row]
-            selectedCurve = curve.rawValue
-        }
-    }
 
     // MARK: - Navigation
 
