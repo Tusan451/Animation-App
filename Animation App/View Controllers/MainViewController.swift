@@ -42,6 +42,20 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func iconButtonAction(_ sender: UIButton) {
+        switch sender.tag {
+        case 1:
+            squareViewIcon.backgroundColor = UIColor.systemBlue
+            animatedView.layer.cornerRadius = 12
+            animatedView.clipsToBounds = false
+            roundViewIcon.backgroundColor = UIColor.systemGray5
+        case 2:
+            roundViewIcon.backgroundColor = UIColor.systemBlue
+            squareViewIcon.backgroundColor = UIColor.systemGray5
+            animatedView.layer.cornerRadius = 75
+            animatedView.clipsToBounds = true
+        default:
+            break
+        }
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
