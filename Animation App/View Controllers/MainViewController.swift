@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import Spring
 
 class MainViewController: UIViewController {
 
     @IBOutlet var animationsAndCurvesPicker: UIPickerView!
     @IBOutlet var startButton: UIButton!
+    @IBOutlet var animatedView: SpringView!
     
     let curvesData = CurveData()
     let animationsData = AnimationData()
+    
+    var selectedAnimation: String?
+    var selectedCurve: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,18 @@ class MainViewController: UIViewController {
 
     }
     
+    @IBAction func startButtonAction() {
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if component == 0 {
+            let animation = animationsData.animations[row]
+            selectedAnimation = animation.rawValue
+        } else {
+            let curve = curvesData.curves[row]
+            selectedCurve = curve.rawValue
+        }
+    }
 
     /*
     // MARK: - Navigation
