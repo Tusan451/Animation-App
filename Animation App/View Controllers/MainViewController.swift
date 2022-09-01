@@ -10,6 +10,10 @@ import UIKit
 class MainViewController: UIViewController {
 
     @IBOutlet var animationsAndCurvesPicker: UIPickerView!
+    @IBOutlet var startButton: UIButton!
+    
+    let curvesData = CurveData()
+    let animationsData = AnimationData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,3 +32,4 @@ class MainViewController: UIViewController {
     */
 
 }
+

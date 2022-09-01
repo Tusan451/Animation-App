@@ -89,6 +89,7 @@
                     </view>
                     <connections>
                         <outlet property="animationsAndCurvesPicker" destination="2N2-dI-vbz" id="DCf-Gz-bc6"/>
+                        <outlet property="startButton" destination="fh1-QZ-oyZ" id="mbd-Xq-EOy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
