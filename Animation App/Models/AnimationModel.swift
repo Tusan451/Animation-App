@@ -7,6 +7,8 @@
 
 import Spring
 
+// Тип данных для захвата и передачи значений анимации
+
 struct AnimationModel {
     var name: String
     var curveValue: String

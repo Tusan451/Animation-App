@@ -7,6 +7,8 @@
 
 import UIKit
 
+// Реализация протокола для UIPickerView
+
 extension MainViewController: UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {

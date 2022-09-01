@@ -5,8 +5,9 @@
 //  Created by Olegio on 31.08.2022.
 //
 
-import Foundation
 import Spring
+
+// Класс, хранящий все значения кривых
 
 class CurveData {
     let curves: [Spring.AnimationCurve] = [

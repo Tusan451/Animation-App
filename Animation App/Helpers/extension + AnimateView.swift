@@ -7,8 +7,9 @@
 
 import Spring
 
+// Метод, запускающий анимацию
+
 extension MainViewController {
-    // Метод для анимации View
     func animateView() {
         if let animation = selectedAnimation, let curve = selectedCurve {
             animatedView.animation = animation

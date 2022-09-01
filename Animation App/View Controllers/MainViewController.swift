@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
     
     let curvesData = CurveData()
     let animationsData = AnimationData()
-    var animationModel: AnimationModel?
+    var animationModel: AnimationModel? // Переменная для захвата значений анимируемого вью
     
     var selectedAnimation: String?
     var selectedCurve: String?
@@ -36,11 +36,13 @@ class MainViewController: UIViewController {
         animationModelInit()
     }
     
+    // Запуск анимации
     @IBAction func startButtonAction() {
         animateView()
         animationModelInit()
     }
     
+    // Смена представления анимируемой фигуры (квадрат/круг)
     @IBAction func iconButtonAction(_ sender: UIButton) {
         switch sender.tag {
         case 1:

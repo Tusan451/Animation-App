@@ -7,6 +7,8 @@
 
 import UIKit
 
+// Реализация протокола для UIPickerView
+
 extension MainViewController: UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {

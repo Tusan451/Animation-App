@@ -7,6 +7,8 @@
 
 import Spring
 
+// Метод для сохранения выбранных значений анимации
+
 extension MainViewController {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if component == 0 {

@@ -7,8 +7,9 @@
 
 import Spring
 
+// Метод для отображения подробной информации переданных значений
+
 extension DetailViewController {
-    // Метод для отображения подробной информации
     func infoSettings() {
         animationName.text = animationInfo.name
         curveName.text = animationInfo.curveValue
